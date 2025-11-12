@@ -130,13 +130,13 @@ mailchimp:
 #####################################
 #############   About   #############
 #####################################
-about-title: Welcome to Sera
-about-description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean at tincidunt sem. Interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi id ornare ante. Cras odio nibh, volutpat vitae volutpat sed, suscipit et nisi. Nulla a tellus at turpis gravida congue non sed nisl.
+about-title: Creative Technologist & Consultant
+about-description: Charlene Atlas has a 15 year career...nare ante. Cras odio nibh, volutpat vitae volutpat sed, suscipit et nisi. Nulla a tellus at turpis gravida congue non sed nisl.
 
 #####################################
 #############  Features  ############
 #####################################
-features-title: Features
+features-title: What We'll Do Together
 features-description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean at tincidunt sem. Interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi id ornare ante.
 
 #
@@ -144,17 +144,17 @@ features-description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. A
 #
 features:
   # Feature
-  - title: Clean & Unique Design
+  - title: Imagine
     description: Maecenas sed laoreet urna. Praesent eget tristique tortor. Suspendisse consequat sed turpis in mattis.
     icon: pe-7s-vector
 
   # Feature
-  - title: Professional Support
+  - title: Create
     description: Maecenas sed laoreet urna. Praesent eget tristique tortor. Suspendisse consequat sed turpis in mattis.
     icon: pe-7s-help2
 
   # Feature
-  - title: Pixel Perfect
+  - title: Inspire
     description: Maecenas sed laoreet urna. Praesent eget tristique tortor. Suspendisse consequat sed turpis in mattis.
     icon: pe-7s-airplay
 
@@ -162,7 +162,7 @@ features:
 ############  Portfolio  ############
 #####################################
 portfolio-title: Portfolio
-portfolio-description: Maecenas tempus nec mi et placerat. Duis at odio vitae ex gravida volutpat. Nulla finibus aliquet diam ut eleifend. Mauris consequat interdum quam. Mauris dui sapien, efficitur et cursus id, molestie fringilla turpis.
+portfolio-description: Charlene Atlas is a creative technologist and consultant... a 15 year career in....working with scientists to bring abstract concepts down to Earth...
 
 #
 # Portfolio Grid
@@ -323,8 +323,8 @@ testimonials:
 #####################################
 ############# Our Blog ##############
 #####################################
-blog-title: Our Blog
-blog-description: Interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi id ornare ante. Cras odio nibh, volutpat vitae volutpat sed, suscipit et nisi. Nulla a tellus at turpis gravida congue non sed nisl. Pellentesque scelerisque eu neque et tincidunt.
+blog-title: "Blog: Light Reflections"
+blog-description: Welcome to the inner workings of my mind... Nulla a tellus at turpis gravida congue non sed nisl. Pellentesque scelerisque eu neque et tincidunt.
 
 #####################################
 ############### Team ################
