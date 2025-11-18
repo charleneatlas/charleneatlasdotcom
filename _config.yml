@@ -171,10 +171,10 @@ portfolio-categories:
   [Websites, Logo, Graphic Design, Development, Video, Photography]
 portfolio:
   # Portfolio Item
-  - title: S<span class="thin">era</span> Style
+  - title: Beacon
     categories: [Websites, Graphic Design]
     image: img-01.jpg
-    url: "#"
+    url: "https://charleneatlas.github.io/Beacon/"
 
   # Portfolio Item
   - title: S<span class="thin">era</span> Style
