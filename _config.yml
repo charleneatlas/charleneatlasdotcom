@@ -162,7 +162,7 @@ features:
 ############  Portfolio  ############
 #####################################
 portfolio-title: Portfolio
-portfolio-description: Charlene Atlas is a creative technologist and consultant... a 15 year career in....working with scientists to bring abstract concepts down to Earth...
+portfolio-description: I am a creative technologist and consultant with a 15-year career envisioning, designing and building novel experiences and technologies. I love working with scientists to bring abstract concepts down to Earth, by translating science into experience.
 
 #
 # Portfolio Grid
@@ -195,33 +195,15 @@ portfolio:
     url: "https://charleneatlas.github.io/Resonant_Worlds/"
 
   # Portfolio Item
-  - title: S<span class="thin">era</span> Style
+  - title: RoboRaid on the ISS
     categories: [Development, Logo]
     image: img-05.jpg
-    url: "#"
+    url: "https://www.youtube.com/watch?v=eZog_ap1Kmg"
 
   # Portfolio Item
-  - title: S<span class="thin">era</span> Style
+  - title: Music Clock
     categories: [Development, Video]
     image: img-06.jpg
-    url: "#"
-
-  # Portfolio Item
-  - title: S<span class="thin">era</span> Style
-    categories: [Websites, Graphic Design]
-    image: img-07.jpg
-    url: "#"
-
-  # Portfolio Item
-  - title: S<span class="thin">era</span> Style
-    categories: [Websites, Video]
-    image: img-08.jpg
-    url: "#"
-
-  # Portfolio Item
-  - title: S<span class="thin">era</span> Style
-    categories: [Photography, Logo]
-    image: img-09.jpg
     url: "#"
 
 #####################################
