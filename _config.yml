@@ -183,10 +183,10 @@ portfolio:
     url: "https://www.spaceappschallenge.org/2025/find-a-team/astrordinary/?tab=project"
 
   # Portfolio Item
-  - title: S<span class="thin">era</span> Style
+  - title: Hyperreal VR
     categories: [Graphic Design, Logo, Photography]
     image: img-03.jpg
-    url: "#"
+    url: "https://www.meta.com/blog/reality-labs-research-tiramisu-boba-3-siggraph-2025-ultrawide-fov-hyperrealistic-vr/"
 
   # Portfolio Item
   - title: S<span class="thin">era</span> Style
