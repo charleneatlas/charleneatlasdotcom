@@ -44,7 +44,7 @@ jekyll-archives:
 #######################################################
 
 # This is your site title
-title: Sera - OnePage Multi-Purpose Theme
+title: Charlene Atlas' Website
 # Website language
 lang: en-US
 # Header Title
@@ -71,7 +71,7 @@ header-secondary-button:
 # IMPORTANT: you can modify contact form from this static template, but now works contact form works with a free external server
 # To configure this contact form, first please send a fictive email afeter you enter below your email and verify that :)
 #
-email: your_email@example.com
+email: atlas.charlenel@gmail.com
 
 # Offer Banner Link
 # Default link is a link to all Sera OnePage products
@@ -86,6 +86,7 @@ facebook: "#"
 twitter: "#"
 google-plus: "#"
 vimeo: "#"
+linkedin: "https://www.linkedin.com/in/charleneatlas/"
 
 #########################
 ######   Widgets   ######
@@ -162,7 +163,10 @@ features:
 ############  Portfolio  ############
 #####################################
 portfolio-title: Portfolio
-portfolio-description: I am a creative technologist and consultant with a 15-year career envisioning, designing and building novel experiences and technologies. My latest passion is working with scientists to bring abstract concepts down to Earth, by translating science into experience.
+portfolio-description: |
+  I am a creative technologist and consultant with a 15-year career envisioning, designing and building novel experiences and technologies. 
+  My latest passion is working with scientists to bring abstract concepts down to Earth, by translating science into experience.
+  Below is a sampling of non-confidential projects I can share.
 
 #
 # Portfolio Grid
@@ -198,13 +202,13 @@ portfolio:
   - title: RoboRaid on the ISS
     categories: [Mixed Reality]
     image: img-05.jpg
-    url: "https://www.youtube.com/watch?v=eZog_ap1Kmg"
+    url: "https://youtu.be/eZog_ap1Kmg?si=MKqOs28dWCuC3_5K&t=1784"
 
   # Portfolio Item
   - title: Music Clock
     categories: [Interactive Hardware]
     image: img-06.jpg
-    url: "#"
+    url: "https://medium.com/portfolio-charlene-atlas/music-clock-making-melody-through-time-b63c29d29cf4"
 
 #####################################
 ##########  Core Features  ##########
@@ -306,7 +310,7 @@ testimonials:
 ############# Our Blog ##############
 #####################################
 blog-title: "Blog: Light Reflections"
-blog-description: Welcome to the inner workings of my mind... Nulla a tellus at turpis gravida congue non sed nisl. Pellentesque scelerisque eu neque et tincidunt.
+blog-description: Snippets from my mind as I marvel at the universe and try to find my path to contributing to it.
 
 #####################################
 ############### Team ################
@@ -409,13 +413,13 @@ plan-ultimate-url: "#"
 #####################################
 ############   Contact   ############
 #####################################
-contact-title: Contact Us
-contact-description: Nulla a tellus at turpis gravida congue non interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi id ornare ante. Cras odio nibh, volutpat.
+contact-title: Contact Me
+contact-description: Book time with me if you'd like to connect!
 
 #####################################
 #############   Footer   ############
 #####################################
-footer-description: Nulla a tellus at turpis gravida congue non interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi id ornare ante. Cras odio nibh, volutpat.
+footer-description: "I have no special talent, I am only passionately curious. -- Albert Einstein"
 footer-copyright-text: Ohkimur
 footer-copyright-url: https://github.com/ohkimur
 footer-copyright-year: 2021
