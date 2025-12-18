@@ -1,5 +1,5 @@
-<!-- Portfolio Section -->
-<section class="site-section portfolio-section next-section-indicator" id="portfolio">
+<!-- Media Section (Portfolio-style grid) -->
+<section class="site-section portfolio-section next-section-indicator" id="media">
   <div class="container">
 
     <!-- Section Heading -->
@@ -7,13 +7,13 @@
 
       <!-- Section Header -->
       <header class="col-md-8 col-md-push-2 col-sm-12 section-header">
-        <h2>{{ site.portfolio-title }}</h2>
+        <h2>{{ site.media-title }}</h2>
         <hr class="normal">
       </header>
 
       <!-- Section Content -->
       <div class="col-md-8 col-md-push-2 col-sm-12 section-content">
-        <p>{{ site.portfolio-description }}</p>
+        <p>{{ site.media-description }}</p>
       </div>
 
     </div>
@@ -25,8 +25,8 @@
           <ul>
             <li data-filter="all" class="current">All</li>
 
-            {% for category in site.portfolio-categories %}
-              <li data-filter=".{{ category | replace:' ','-' | downcase }}" >{{ category }}</li>
+            {% for category in site.media-categories %}
+              <li data-filter=".{{ category | replace:' ','-' | downcase }}">{{ category }}</li>
             {% endfor %}
 
           </ul>
@@ -34,14 +34,14 @@
       </div>
     </div>
 
-    <!-- Portfolio Grid -->
+    <!-- Media Grid -->
     <div class="row portfolio-grid">
 
-      {% for item in site.portfolio %}
+      {% for item in site.media %}
 
       <div class="col-md-4 col-sm-6 item visible {% for category in item.categories %} {{ category | replace:' ','-' | downcase }}{% endfor %}">
         <figure class="img-wrap">
-          <img src="{{ site.baseurl }}/images/portfolio/{{ item.image }}" alt="Portfolio Item Image" />
+          <img src="{{ site.baseurl }}/images/media/{{ item.image }}" alt="Media Item Image" />
         </figure>
         <div class="item-content">
           <h3>{{ item.title }}</h3>
@@ -50,7 +50,7 @@
             <ul>
               <li><a href="{{ item.url }}" target="_blank" rel="noopener noreferrer" class="item-link"><i class="pe-7s-link"></i></a></li>
               <li><a href="#" class="item-like"><i class="pe-7s-like"></i></a></li>
-              <li><a href="{{ site.baseurl }}/images/portfolio/{{ item.image }}" class="item-expand"><i class="pe-7s-exapnd2"></i></a></li>
+              <li><a href="{{ site.baseurl }}/images/media/{{ item.image }}" class="item-expand"><i class="pe-7s-exapnd2"></i></a></li>
             </ul>
           </div>
         </div>

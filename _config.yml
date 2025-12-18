@@ -211,6 +211,30 @@ portfolio:
     url: "https://medium.com/portfolio-charlene-atlas/music-clock-making-melody-through-time-b63c29d29cf4"
 
 #####################################
+###############  Media  #############
+#####################################
+media-title: Media
+media-description: |
+  Talks, podcasts, articles, and other appearances.
+
+#
+# Media Grid
+#
+media-categories: [Talks, Podcasts, Articles, Press]
+media:
+  # Media Item
+  - title: Example Talk
+    categories: [Talks]
+    image: img-01.jpg
+    url: "https://example.com"
+
+  # Media Item
+  - title: Example Podcast
+    categories: [Podcasts]
+    image: img-02.jpg
+    url: "https://example.com"
+
+#####################################
 ##########  Core Features  ##########
 #####################################
 core-title: Core Features

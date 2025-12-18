@@ -70,67 +70,89 @@
     });
 
     /**
-     *  Portfolio
+     *  Filterable Grids (Portfolio + Media)
+     *
+     *  This theme originally assumed a single portfolio grid.
+     *  We now support multiple independent grids by scoping
+     *  interactions to each section.
      **/
-    var $filter_menu_item = $('.filter-menu ul li');
-    var $portfolio_grid = $('.portfolio-grid');
-    var $portfolio_grid_item = $portfolio_grid.children(".item");
-    var $overlay = $portfolio_grid.children("#overlay");
-    var $img = '<img alt="Portfolio Overlay Image" />';
-    var $data_filters = null;
+    var $img = '<img alt="Overlay Image" />';
+    var filterableGrids = [];
 
-    // Filter Menu
-    $filter_menu_item.on('click', function () {
+    $('section.portfolio-section').each(function () {
+
+      var $section = $(this);
+      var $filter_menu_item = $section.find('.filter-menu ul li');
+      var $grid = $section.find('.portfolio-grid');
+      var $grid_item = $grid.children('.item');
+      var $overlay = $grid.children('.overlay');
+      var $data_filters = null;
+
+      // If a section doesn't contain the expected structure, skip it.
+      if (!$filter_menu_item.length || !$grid.length || !$grid_item.length || !$overlay.length) {
+        return;
+      }
+
+      // Keep for scroll reveal
+      filterableGrids.push({
+        $container: $grid,
+        $items: $grid_item
+      });
 
       // Filter Menu
-      $filter_menu_item.removeClass('current');
-      $(this).addClass('current');
+      $filter_menu_item.on('click', function () {
 
-      // Collecting Data Filters
-      $data_filters = $(this).data('filter');
+        // Filter Menu
+        $filter_menu_item.removeClass('current');
+        $(this).addClass('current');
 
-      // Hide All Portfolio Items
-      if ($data_filters == 'all') {
-        $portfolio_grid_item.addClass('visible');
-      }
-      else { // Show Portfolio Items from filter
-        $portfolio_grid_item.removeClass('visible');
-        $($data_filters).addClass('visible');
-      }
+        // Collecting Data Filters
+        $data_filters = $(this).data('filter');
 
-    });
+        // Hide/Show Items
+        if ($data_filters == 'all') {
+          $grid_item.addClass('visible');
+        }
+        else {
+          $grid_item.removeClass('visible');
+          $($data_filters, $grid).addClass('visible');
+        }
 
-    // Show Image - Lightbox
-    $portfolio_grid_item.find(".item-expand").on('click', function (e) {
+      });
 
-      // Prevent Default Link Event
-      e.preventDefault();
+      // Show Image - Lightbox
+      $grid_item.find('.item-expand').on('click', function (e) {
 
-      // Get Image Link
-      var $src = $(this).attr("href");
+        // Prevent Default Link Event
+        e.preventDefault();
 
-      // Create Image on the DOM
-      $overlay.append($img);
+        // Get Image Link
+        var $src = $(this).attr('href');
 
-      // Show Overlay Image
-      $overlay.fadeIn(200).children("img").attr("src", $src);
+        // Create Image on the DOM
+        $overlay.append($img);
 
-      // Lock Body Scroll
-      $body.toggleClass('no-scroll');
+        // Show Overlay Image
+        $overlay.fadeIn(200).children('img').attr('src', $src);
 
-    });
+        // Lock Body Scroll
+        $body.toggleClass('no-scroll');
 
-    // Hide Overlay Lightbox
-    $overlay.on('click', function () {
+      });
 
-      // Hide Overlay Image
-      $(this).fadeOut(200);
+      // Hide Overlay Lightbox
+      $overlay.on('click', function () {
 
-      // Remove Image from DOM
-      $overlay.children("img").remove();
+        // Hide Overlay Image
+        $(this).fadeOut(200);
 
-      // Unlock Body Scroll
-      $body.toggleClass('no-scroll');
+        // Remove Image from DOM
+        $overlay.children('img').remove();
+
+        // Unlock Body Scroll
+        $body.toggleClass('no-scroll');
+
+      });
 
     });
 
@@ -167,8 +189,10 @@
         }
       }
 
-      // Portfolio Reveal Images
-      revealItem($portfolio_grid, $portfolio_grid_item);
+      // Reveal Items on Scroll (Portfolio + Media)
+      for (var i = 0; i < filterableGrids.length; i++) {
+        revealItem(filterableGrids[i].$container, filterableGrids[i].$items);
+      }
 
     });
 
