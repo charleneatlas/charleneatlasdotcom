@@ -86,6 +86,7 @@ facebook: "#"
 twitter: "#"
 google-plus: "#"
 vimeo: "#"
+instagram: "https://www.instagram.com/charlene.atlas/"
 linkedin: "https://www.linkedin.com/in/charleneatlas/"
 
 #########################
@@ -220,19 +221,43 @@ media-description: |
 #
 # Media Grid
 #
-media-categories: [Talks, Podcasts, Articles, Press]
+media-categories: [Talks, Podcasts, Articles, Videos]
 media:
   # Media Item
-  - title: Example Talk
-    categories: [Talks]
-    image: img-01.jpg
-    url: "https://example.com"
+  - title: Revision Path Podcast
+    categories: [Podcasts]
+    image: RevisionPath.jpg
+    url: "https://revisionpath.com/charlene-atlas"
 
   # Media Item
-  - title: Example Podcast
-    categories: [Podcasts]
-    image: img-02.jpg
-    url: "https://example.com"
+  - title: XR Association Feature
+    categories: [Articles]
+    image: XRA.png
+    url: "https://xra.org/initiative/a-conversation-with-charlene-atlas/"
+
+    # Media Item
+  - title: HoloLens - RoboRaid
+    categories: [Videos]
+    image: RoboRaidTrailer.png
+    url: "https://www.youtube.com/watch?v=Hf9qkURqtbM"
+
+  # Media Item
+  - title: Mavens I/O Conference
+    categories: [Talks]
+    image: Mavens.png
+    url: "https://www.youtube.com/watch?v=ne574VULvyo"
+
+  # Media Item
+  - title: Black Excellence in AR/VR
+    categories: [Articles]
+    image: BlEx.png
+    url: "https://tech.facebook.com/reality-labs/2020/2/celebrating-black-excellence-in-ar-vr/"
+
+  # Media Item
+  - title: Grace Hopper Inclusive Design  Workshop
+    categories: [Talks]
+    image: gracehopper2016.png
+    url: "/charleneatlasdotcom/downloads/GHC16_Workshop_Presentation_100516_v10.0.pptx"
 
 #####################################
 ##########  Core Features  ##########
