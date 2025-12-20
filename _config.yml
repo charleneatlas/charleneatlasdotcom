@@ -242,6 +242,12 @@ media:
     url: "https://www.youtube.com/watch?v=Hf9qkURqtbM"
 
   # Media Item
+  - title: Grace Hopper Inclusive Design  Workshop
+    categories: [Talks]
+    image: gracehopper2016_brochure.png
+    url: "/charleneatlasdotcom/downloads/GHC16_Workshop_Presentation_100516_v10.0.pptx"
+
+  # Media Item
   - title: Mavens I/O Conference
     categories: [Talks]
     image: Mavens.png
@@ -252,12 +258,6 @@ media:
     categories: [Articles]
     image: BlEx.png
     url: "https://tech.facebook.com/reality-labs/2020/2/celebrating-black-excellence-in-ar-vr/"
-
-  # Media Item
-  - title: Grace Hopper Inclusive Design  Workshop
-    categories: [Talks]
-    image: gracehopper2016.png
-    url: "/charleneatlasdotcom/downloads/GHC16_Workshop_Presentation_100516_v10.0.pptx"
 
 #####################################
 ##########  Core Features  ##########
