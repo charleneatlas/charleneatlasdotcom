@@ -98,15 +98,12 @@ linkedin: "https://www.linkedin.com/in/charleneatlas/"
 #
 about-widget:
   author-avatar: avatar-02.jpg
-  author-name: John Doe
+  author-name: Charlene Atlas
   author-tagline: Blog Author
-  author-info: Cum sociis que penatibus et magnis dis parturient montes lorem, nascetur ridiculus mus. Donec quam felis, ultricies.
+  author-info: What I'm thinking about, what I'm doing and what I'm thinking about doing.
   author-social-links:
-    youtube: "#"
-    pinterest: "#"
-    facebook: "#"
-    twitter: "#"
-    google-plus: "#"
+    linkedin: "https://www.instagram.com/charlene.atlas/"
+    instagram: "https://www.linkedin.com/in/charleneatlas/"
 
 # Google Map JS api
 key-api: YOUR_GOOGLE_MAP_API_KEY
