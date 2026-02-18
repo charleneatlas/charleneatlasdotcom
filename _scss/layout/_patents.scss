@@ -5,102 +5,73 @@
  **/
 
 section.patents-section {
+  padding: 100px 0;
 
-  // if your theme already handles padding in layout/_sections.scss, remove this
-  padding: 80px 0;
-
-  .section-title {
-    margin-bottom: 50px;
-
-    p {
-      max-width: 720px;
-      margin: 0 auto;
-      opacity: 0.85;
-    }
+  /* Big stat + list layout */
+  .patent-layout {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    align-items: center;  // centers hero relative to card stack
   }
 
-  // Stats row
-  .patent-stats {
-    display: grid;
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-    gap: 30px;
-    margin-bottom: 60px;
+  .patent-hero {
     text-align: center;
+    padding: 10px 0 30px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
   }
 
-  .patent-stat__value {
-    font-size: 32px;
+  .patent-hero__value {
+    font-size: 150px;
+    line-height: 1;
     font-weight: 700;
-    line-height: 1.2;
   }
 
-  .patent-stat__label {
-    margin-top: 6px;
-    font-size: 15px;
+  .patent-hero__label {
+    margin-top: 14px;
+    font-size: 30px;
     opacity: 0.75;
   }
 
-  // Highlight cards
-  .patent-highlights {
-    display: grid;
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-    gap: 30px;
+  /* Right column: stack cards with spacing */
+  .patent-list {
+    padding-top: 10px;
+    padding-left: 30px;
   }
 
   .patent-card {
     background: #fff;
     border-radius: 8px;
     padding: 30px;
-    box-shadow: 0 8px 25px rgba(0,0,0,0.05);
-    height: 100%;
+    box-shadow: 0 12px 35px rgba(0,0,0,0.06);
   }
 
-  .patent-card__title {
-    margin: 0;
-    font-size: 18px;
-    line-height: 1.4;
-
-    a {
-      color: inherit;
-      text-decoration: none;
-
-      &:hover {
-        text-decoration: underline;
-      }
-    }
+  .patent-list .patent-card {
+    margin-bottom: 22px;
   }
 
-  .patent-card__meta {
-    display: flex;
-    gap: 12px;
-    margin-top: 12px;
-    font-size: 14px;
-    opacity: 0.7;
+  .patent-list .patent-card:last-child {
+    margin-bottom: 0;
   }
 
-  .patent-chip {
-    padding: 0;
-    border: none;
-    background: none;
-  }
-
-  .patent-card__note {
-    margin-top: 15px;
-    opacity: 0.85;
-    line-height: 1.6;
-  }
-
-  .patent-cta {
-    margin-top: 50px;
-    text-align: center;
-  }
-
-  // Responsive
+  /* Mobile: keep it clean */
   @media (max-width: 991px) {
-    .patent-stats,
-    .patent-highlights {
-      grid-template-columns: 1fr;
+    .patent-hero {
+      text-align: center;
+      padding-bottom: 20px;
+    }
+
+    .patent-hero__value {
+      font-size: 72px;
     }
   }
+}
 
+section.patents-section .patent-cta {
+  margin-top: 35px;
+  text-align: center;
+  font-size: 30px;
 }
