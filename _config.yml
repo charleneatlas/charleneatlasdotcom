@@ -256,6 +256,24 @@ media:
     image: BlEx.png
     url: "https://tech.facebook.com/reality-labs/2020/2/celebrating-black-excellence-in-ar-vr/"
 
+    # Media Item
+  - title: Medium Portfolio
+    categories: [Articles]
+    image: skynolimit_CROP.png
+    url: "https://medium.com/portfolio-charlene-atlas"
+
+  # Media Item
+  - title: Fit4Mom Mom of the Month
+    categories: [Articles]
+    image: Fit4MomOfTheMonth_CROP.png
+    url: "https://eastside.fit4mom.com/our-corner/mom-of-the-month-charlene-atlas"
+
+  # Media Item
+  - title: 2009 Grammy Awards
+    categories: [Videos]
+    image: 2009Grammys_CROP.png
+    url: "https://www.youtube.com/watch?v=XgjWVIDN9rQ&lc=UgxtjKWt1QojeaHZvFR4AaABAg.9KthpLHo2LL9VJdvpfW-t8"
+
 #####################################
 ##########  Core Features  ##########
 #####################################
