@@ -261,7 +261,7 @@ media:
     # Media Item
   - title: Medium Portfolio
     categories: [Articles]
-    image: skynolimit_CROP.png
+    image: skynolimit_CROP.PNG
     url: "https://medium.com/portfolio-charlene-atlas"
 
   # Media Item
@@ -273,7 +273,7 @@ media:
   # Media Item
   - title: 2009 Grammy Awards
     categories: [Videos]
-    image: 2009Grammys_CROP.png
+    image: 2009Grammys_CROP.PNG
     url: "https://www.youtube.com/watch?v=XgjWVIDN9rQ&lc=UgxtjKWt1QojeaHZvFR4AaABAg.9KthpLHo2LL9VJdvpfW-t8"
 
 #####################################
